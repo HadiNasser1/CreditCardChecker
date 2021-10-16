@@ -1,4 +1,4 @@
-cardNo = list(input("What is your card number:))
+cardNo = list(input("What is your card number? ").strip())
 
 # this takes the last number out of the list, making it our check number for later use.
 check_number = cardNo.pop()

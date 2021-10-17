@@ -1,3 +1,8 @@
+'''
+This code validates a credit card number based on Luhn's algorithm
+'''
+
+# First we ask a user for a card number. We make this number a list and we strip the white space to avoid interference with the code.
 cardNo = list(input("What is your card number? ").strip())
 
 # this takes the last number out of the list, making it our check number for later use.

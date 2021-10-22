@@ -5,6 +5,21 @@ This code validates a credit card number based on Luhn's algorithm
 # First we ask a user for a card number. We strip the white space to avoid interference with the code.
 cardNo = input("What is your card number? ").strip()
 
+
+# randomly shuffle a sequence
+from numpy.random import seed
+from numpy.random import shuffle
+# seed random number generator
+seed(1)
+# prepare a sequence
+cardNo = [i for i in range(11<16)]
+print(cardNo)
+# randomly shuffle the sequence
+shuffle(cardNo)
+print(cardNo)
+
+ 
+
 # We then find the length of the card number. This is used later to validate if the number of digits is applicable or not.
 length = len(cardNo)
 
